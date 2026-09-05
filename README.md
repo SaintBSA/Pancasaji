@@ -1,6 +1,6 @@
 # Pancasaji - Android-Based Dietary Diversity Classification Using YOLOv11
 
-**Pancasaji** is an Android-based mobile application designed to evaluate and classify dietary diversity—specifically targeting pregnant women—to help monitor and improve nutritional intake. Utilizing the **YOLOv11** object detection architecture, the app analyzes food items on a plate in real time to assess meal completeness and diversity directly from an Android device.
+**Pancasaji** is an Android-based mobile application designed to evaluate and classify dietary diversity, specifically targeting pregnant women to help monitor and improve nutritional intake. Utilizing the **YOLOv11** object detection architecture, the app analyzes food items on a plate in real time to assess meal completeness and diversity directly from an Android device.
 
 ---
 
