@@ -1,17 +1,16 @@
-# main_design
+# Pancasaji - Android-Based Dietary Diversity Classification Using YOLOv11
 
-A new Flutter project.
+**Pancasaji** is an Android-based mobile application designed to evaluate and classify dietary diversity—specifically targeting pregnant women—to help monitor and improve nutritional intake. Utilizing the **YOLOv11** object detection architecture, the app analyzes food items on a plate in real time to assess meal completeness and diversity directly from an Android device.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Key Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Real-Time Food Detection & Classification:** Powered by lightweight YOLOv11 models optimized for mobile deployment (TFLite) to detect food items on a plate instantly via camera or image upload.
+- **Dietary Completeness Assessment:** Evaluates food plate composition across essential food groups to measure dietary diversity and completeness.
+- **On-Device Machine Learning:** Fast local inference on Android devices ensuring real-time response without requiring heavy cloud processing.
+- **User-Friendly Mobile Interface:** Interactive Flutter-based UI that provides immediate visual feedback, category breakdowns, and nutritional insight.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Developed by **Bhismo Surya Atmaja**
