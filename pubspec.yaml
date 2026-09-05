@@ -1,0 +1,40 @@
+name: main_design
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  screenshot: ^3.0.0
+  gal: ^2.3.2  
+  path_provider: ^2.1.2
+  flutter_vision: ^1.1.4
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.2
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+  flutter_lints: ^6.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "lib/assets/icons/nutrio-logo-big.png" 
+  adaptive_icon_background: "#32303B" 
+  adaptive_icon_foreground: "lib/assets/icons/nutrio-logo-big.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/
+    - assets/models/best_float32.tflite
+    - assets/models/labels.txt
